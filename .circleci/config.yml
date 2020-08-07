@@ -232,7 +232,6 @@ jobs:
             else
               printf ":: no errors are found in release\n\n"
             fi
-
   build_centos7:
     docker:
       - image: offical2600hz/kazoo-packager-22:1.0-centos-7
